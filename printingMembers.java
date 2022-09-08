@@ -2,6 +2,7 @@ public class printname{
     public static void main(String[] args) {
       String firstMember = "Chemuel Castillo";
       System.out.println(firstMember);
-      System.out.println("================");
+      String secondMember = "Ma. Elena Fuentes";
+      System.out.println(secondMember);
     }
   }
