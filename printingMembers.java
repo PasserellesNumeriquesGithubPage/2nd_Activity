@@ -4,5 +4,9 @@ public class printname{
       System.out.println(firstMember);
       String secondMember = "Ma. Elena Fuentes";
       System.out.println(secondMember);
+       String thirdMember = "John Kevin Campanilla";
+      System.out.println(thirdMember);
+		
+	
     }
   }
