@@ -9,3 +9,5 @@ public class Multiply {
        System.out.println("5*58 = " + c);
    }
 }
+
+git add --cached filename
