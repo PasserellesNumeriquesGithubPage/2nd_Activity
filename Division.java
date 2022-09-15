@@ -1,7 +1,5 @@
-public class Main{
-    int Division(){
-        int a = 4;
-        int b = 2;
+public class Main {
+    int Division(int a, int b) {
         return a / b;
     }
 }
