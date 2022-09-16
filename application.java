@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Main{
@@ -48,3 +49,12 @@ public class Main {
     }
 }
 >>>>>>> feature/Subtraction
+=======
+public class Main {
+    public static int mult(int x, int y)
+    {
+        int result = x*y;
+        return result;
+    }
+}
+>>>>>>> feature/Multiplication
