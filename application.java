@@ -1,30 +1,26 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 import java.util.Scanner;
 
+
 public class Main{
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner inp= new Scanner(System.in);
         int num1,num2;
         System.out.println("Enter the first number: ");
         num1 = inp.nextInt();
+      
         System.out.println("Enter second number: ");
         num2 = inp.nextInt();
-        int ans;
+       
+        // int ans;
         System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
         int choose;
         choose = inp.nextInt();
+        inp.close();
         switch (choose){
         case 1:
             System.out.println("The result is: "+ add( num1,num2));
             break;
+            
         case 2:
             System.out.println("The result is: "+ sub( num1,num2));
             break;      
@@ -37,65 +33,21 @@ public class Main{
             default:
                 System.out.println("Illigal Operation");
         }
-	}
-}
-=======
-public class Main {
-    public static int add(int x, int y){
-        int result = x + y;
-        return result;
     }
-}
->>>>>>> feature/Addition
-=======
-public class Main {
-    public static int sub(int x, int y){
-        int result = x-y;
-        return result;
-    }
-}
->>>>>>> feature/Subtraction
-=======
-public class Main {
-    public static int mult(int x, int y)
-    {
-        int result = x*y;
-        return result;
-    }
-}
->>>>>>> feature/Multiplication
-=======
-public class Main{
-    public static int div(int x, int y)
-    {
-        int result = x/y;
-        return result;
-    }
-}
->>>>>>> feature/Division
-=======
-public static int div(int x, int y){
-=======
 public static int div(int x, int y) {
->>>>>>> feature/Division
         int result = x/y;
         return result;
     }
-=======
 public static int add(int x, int y){
         int result = x + y;
         return result;
     }
->>>>>>> feature/Addition
-=======
 public static int sub(int x, int y){
         int result = x-y;
         return result;
 }
->>>>>>> feature/Subtraction
-=======
 public static int mult(int x, int y){
         int result = x*y;
         return result;
     }
->>>>>>> feature/Multiplication
+}
