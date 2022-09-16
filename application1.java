@@ -1,6 +1,3 @@
-public class Main{
-    public static int ending(int x, int y)
-    {
-        System.out.println("HELLO!");
-    }
+public static int ending(){
+        System.out.println("End of the program");
 }
