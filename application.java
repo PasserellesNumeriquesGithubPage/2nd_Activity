@@ -1,5 +1,7 @@
 public class Main {
-    int Multiplication(int a, int b) {
-        return a * b;
+    public static int mult(int x, int y)
+    {
+        int result = x*y;
+        return result;
     }
 }
