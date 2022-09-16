@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Main{
@@ -74,6 +75,9 @@ public class Main{
 >>>>>>> feature/Division
 =======
 public static int div(int x, int y){
+=======
+public static int div(int x, int y) {
+>>>>>>> feature/Division
         int result = x/y;
         return result;
     }
