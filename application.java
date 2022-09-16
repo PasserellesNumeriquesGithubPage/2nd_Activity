@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Main{
@@ -39,3 +40,11 @@ public class Main {
     }
 }
 >>>>>>> feature/Addition
+=======
+public class Main {
+    public static int sub(int x, int y){
+        int result = x-y;
+        return result;
+    }
+}
+>>>>>>> feature/Subtraction
