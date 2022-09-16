@@ -1,5 +1,6 @@
 public class Main {
-    int Subtraction(int a, int b) {
-        return a - b;
+    public static int sub(int x, int y){
+        int result = x-y;
+        return result;
     }
 }
