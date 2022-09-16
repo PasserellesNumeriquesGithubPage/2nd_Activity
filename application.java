@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Main{
@@ -30,3 +31,11 @@ public class Main{
         }
 	}
 }
+=======
+public class Main {
+    public static int add(int x, int y){
+        int result = x + y;
+        return result;
+    }
+}
+>>>>>>> feature/Addition
