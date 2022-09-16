@@ -1,11 +1,6 @@
 package activity2;
 
 public class Animal{
-    // public Animal(String Dog){
-    //     super(Dog);
-    //     System.out.println("The part two Dog!");
-    // }//Constructor
-
     private String animal = "Dogs";
 
     public String animalsType(){
