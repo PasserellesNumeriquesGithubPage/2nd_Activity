@@ -1,0 +1,7 @@
+public class Main{
+    public static int div(int x, int y)
+    {
+        int result = x/y;
+        return result;
+    }
+}
