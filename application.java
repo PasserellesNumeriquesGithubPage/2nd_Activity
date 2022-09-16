@@ -1,5 +1,6 @@
 public class Main {
-    int Addition(int a, int b) {
-        return a + b;
+    public static int add(int x, int y){
+        int result = x + y;
+        return result;
     }
 }
